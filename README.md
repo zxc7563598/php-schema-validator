@@ -7,6 +7,8 @@
 
 A simple and extensible PHP parameter validation library, supporting rule-based definitions and custom extensions, suitable for any structured data verification scenarios
 
+**This project has been parsed by Zread. If you need a quick overview of the project, you can click here to view it：[Understand this project](https://zread.ai/zxc7563598/php-schema-validator)**
+
 ---
 
 ## 📦 Installation method
