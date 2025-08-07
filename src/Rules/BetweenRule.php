@@ -40,9 +40,9 @@ class BetweenRule implements RuleInterface
 
     private function parseBetweenParams(string $params): array
     {
-        if (preg_match('/^(-?\d+(?:\.\d+)?)-(-?\d+(?:\.\d+)?)$/', $params, $matches)) {
+        if (preg_match('/^\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*$/', $params, $matches)) {
             return [(float)$matches[1], (float)$matches[2]];
         }
-        throw new \InvalidArgumentException("between 参数格式错误，必须是 'min-max'，例如：'-10--1' 或 '0.5-5.5'");
+        throw new \InvalidArgumentException("between 参数格式错误，必须是 'min,max'，例如：'-10,-1' 或 '0.5,5.5'");
     }
 }
