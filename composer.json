@@ -1,6 +1,6 @@
 {
   "name": "hejunjie/schema-validator",
-  "description": "基于规则类实现的 PHP 类型验证组件，支持字符串、整数、布尔值等常用类型验证 | A lightweight and extensible PHP type validation library based on rule classes.",
+  "description": "一个简单且可扩展的 PHP 参数验证库，支持规则式定义与自定义扩展，适用于任何结构化数据校验场景 | A simple and extensible PHP parameter validation library, supporting rule-based definitions and custom extensions, suitable for any structured data verification scenarios",
   "type": "library",
   "license": "MIT",
   "autoload": {
